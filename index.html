@@ -1,52 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+	<title>Landing Page</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <a href="index">Logo</a>
-        <nav>
-            <a href="">header link one</a>
-            <a href="">header link two</a>
-            <a href="">header link three</a>
-        </nav>
-    </header>
 
-    <section>
-        <div class="izquierdo">
-            <h1>This website is awesome</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quo saepe minus molestias perferendis ut culpa aperiam facilis officia, temporibus ipsam quasi blanditiis laborum optio placeat aspernatur obcaecati pariatur. Tempore!</p>
-            <input type="button" value="Sign Up">
-        </div>
-        <div class="img"></div>
-    </section>
 
-    <main>
-        <h2>Some random information </h2>
-        <div>
-            <div><p>this is some subtext under a ilustrationor image</p></div>
-            <div><p>this is some subtext under a ilustrationor image</p></div>
-            <div><p>this is some subtext under a ilustrationor image</p></div>
-            <div><p>this is some subtext under a ilustrationor image</p></div>
-        </div>
-    </main>
-    <section>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti explicabo sapiente animi dolor maxime molestiae eius sunt quam ratione pariatur harum repellat quae mollitia accusamus, excepturi error quo placeat ea.
-        </p>
-        <p>-Thor, God of Thunder</p>
-    </section>
+	<div class="header dark-blue-background">
+		<h2 class="white" >Soulless Corporate Logo</h2>
+		<div>
+			<ul class="header-links">
+				<li>
+					<a class="white" href="#home">link to part of the page</a>
+				</li>
+				<li>
+					<a class="white" href="#product">second link to part of the page</a>
+				</li>
+				<li>
+					<a class="white" href="#testimonies">third link to part of the page</a>
+				</li>
+				<li>
+					<a class="white" href="fourthlink.html">fourth link???</a>
+				</li>
+			</ul>
+		</div>
+	</div>
 
-    <section>
-        <h3>Call to action! it's time!</h3>
-        <p>Signup for product by clicking that button right over there!</p>
-        <input type="button" value="Sign Up">
-    </section>
-    <footer>
-        <p>copyright The Odin Proyect</p>
-    </footer>
+<div class="dark-blue-background">
+	<div class="home" id="home">
+		<div class="home-text">
+			<div class="home-h1-container">
+				<h1 class="white home-h1-text">This website looks very soulless</h1>
+			</div>
+			<div class="home-p-text">
+				<p class="white">This website looks exactly the same as every other corporate big tech website post-2015.</p>
+			</div>
+			<div class="home-button-container">
+				<button class="home-button">
+					<a href="" class="white">Sign Up</a>
+				</button>
+			</div>
+		</div>
+		<div class="home-img">
+			<img style="max-width: 65%" src="css/images/smiling-guy.jpeg" alt="stock image of someone smiling">
+			<div id="product"></div>
+		</div>
+	</div>
+</div>
+
+<div class="product-container" >
+	<div class="product-h1-container">
+		<h1>Corporate jargon to make you buy our product</h1>
+	</div>
+	<div class="products">
+		<div class="product">
+			<img class="product-img" src="css/images/iphone.png" alt="product">
+			<p class="grey">buy it</p>
+		</div>
+		<div class="product">
+			<img class="product-img" src="css/images/macbook.png" alt="product">
+			<p class="grey">buy it</p>
+		</div>
+		<div class="product">
+			<img class="product-img" src="css/images/pixel.png" alt="product">
+			<p class="grey">buy it</p>
+		</div>
+		<div class="product">
+			<img class="product-img" src="css/images/surface.png" alt="product">
+			<p class="grey">buy it</p>
+		</div>
+	</div>
+</div>
+	
+<div class="testimonies" id="testimonies">
+	<p class="testimony-quote">"This is an incredibly generic positive quote by a random person you're not even sure is actually real. Here's some more text to fill in the gaps. Almost there... Ok, maybe just a little bit more... Ok now we're almost there. Aaaaand... Done!"</p>
+	<p class="testimony">-Person Who Might Be Real</p>
+</div>
+	
+<div class="signup-container">
+	<div class="signup-box">
+		<div class="signup-box-text">
+			<h2 class="white">Let us datamine you!</h2>
+			<div class="signup-box-small-text">
+				<p class="white">Give us your email so we can datamine you and bombard your inbox with hundreds of ads!</p>
+			</div>
+		</div>
+		<div class="signup-box-button-container">
+			<button class="signup-button">
+				<a href="" class="white">Sign Up</a>
+			</button>
+		</div>
+	</div>
+</div>
 </body>
+
+<footer>
+	<p class="white">Copyright © Soulless Big Tech Corpo #324</p>
+</footer>
+
 </html>
